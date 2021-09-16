@@ -40,7 +40,7 @@ driver.find_element_by_xpath("//*[@title='Testing']").click()
 #press will perform a function of pressing enter 
 for i in range(10):
     pg.click(769, 735)
-    pg.write("HELLO biaatch.")
+    pg.write("HELLO WORLD.")
     pg.press("enter")
 
 
